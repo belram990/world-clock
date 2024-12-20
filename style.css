@@ -2,13 +2,14 @@ body {
     background: linear-gradient(109.6deg, rgb(37, 56, 83) 11.2%, rgb(36, 45, 60) 50.2%, rgb(37, 56, 83) 98.6%);
     font-family: Palatino,
         URW Palladio L,
-        serif
+        serif;
 }
 
 h1 {
     text-align: center;
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-    font-size: 42px;
+    font-size: 48px;
+    text-shadow: 1px 1px 10px#748fb0;
 }
 
 .container {
@@ -56,19 +57,47 @@ h2 {
 
 }
 
+button {
+    margin: 0 auto;
+    display: block;
+    padding: 0px 6px;
+    font-family: Palatino,
+        URW Palladio L,
+        serif;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px#385170;
+    border-color: aliceblue;
+
+
+}
+
+span {
+    font-size: 23px;
+}
+
+.button {
+    text-decoration: none;
+    color: #385170;
+}
+
+
 select {
     display: block;
     width: 100%;
     border-radius: 4px;
     padding: 10px;
     font-size: 15px;
+    color: #385170;
+    font-weight: bold;
 }
 
 
 footer {
     text-align: center;
     color: #c4c1e0;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 a {
