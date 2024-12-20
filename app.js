@@ -1,14 +1,14 @@
 function updateTime() {
   //Los Angeles
 
-  let losAngelesElement = document.querySelector("#los-angeles");
-  if (losAngelesElement) {
-    let losAngelesDateElement = losAngelesElement.querySelector(".date");
-    let losAngelesTimeElement = losAngelesElement.querySelector(".time");
-    let losAngelesTime = moment().tz("America/Los_Angeles");
+  let newYorkElement = document.querySelector("#new-york");
+  if (newYorkElement) {
+    let newYorkDateElement = newYorkElement.querySelector(".date");
+    let newYorkTimeElement = newYorkElement.querySelector(".time");
+    let newYorkTime = moment().tz("America/New_York");
 
-    losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do YYYY");
-    losAngelesTimeElement.innerHTML = losAngelesTime.format(
+    newYorkDateElement.innerHTML = newYorkTime.format("MMMM Do YYYY");
+    newYorkTimeElement.innerHTML = newYorkTime.format(
       "h:mm:ss[<small>]A[</small]"
     );
   }
